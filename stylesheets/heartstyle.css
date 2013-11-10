@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'LigatureSymbols';
+    src: url('LigatureSymbols/LigatureSymbols-2.11.eot');
+    src: url('LigatureSymbols/LigatureSymbols-2.11.eot?#iefix') format('embedded-opentype'),
+         url('LigatureSymbols/LigatureSymbols-2.11.woff') format('woff'),
+         url('LigatureSymbols/LigatureSymbols-2.11.ttf') format('truetype'),
+         url('LigatureSymbols/LigatureSymbols-2.11.svg#LigatureSymbols') format('svg');
+    src: url('LigatureSymbols/LigatureSymbols-2.11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'wisdom_script';
+    src: url('wisdom_script/wisdom_script-webfont.woff') format('woff');
+    src: url('wisdom_script/widsom_script-webfont.ttf') format('truetype');
+    src: url('wisdom_script/wisdom_script-webfont.eot');
+    src: url('wisdom_script/wisdom_script-webfont.svg') format('svg');
+}
+
+body{
+    background-image: url(../images/cardboardy.jpg);
+}
+
+.menu_expand{
+    border: 5px solid #4D5054;
+    width: 55px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #4D5054;
+    margin: auto;
+}
+
+.menu_item{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-family: 'LigatureSymbols';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.expanded_container{
+    display: none;
+    margin: auto;
+}
+
+.triangle{
+    margin: -1px auto 0 auto;
+    width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #4D5054;
+}
+
+a{
+    color: #6FA2AA;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f35f5d;
+}
+
+a:active{
+    color: #f35f5d;
+}
+
+.menu_icons{
+    border: 5px solid #4D5054;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #4D5054;
+    margin: auto;
+}
+
+.menu_icons p{
+    font-family: wisdom_script;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
